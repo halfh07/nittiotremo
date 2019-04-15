@@ -76,11 +76,17 @@ public class Ventanita_Login extends JFrame implements ActionListener
         //para mantenimiento solo crea alta/baja/mod de usuarios
         if (eventito.getSource() == entrar)
         {
+            
+/*
             if(cajausuario.getText()==admin && cajapass.getText()==pass)
             {
                     JOptionPane.showMessageDialog(null,"EL USUARIO Y CONTRASEÑA SON CORRECTOS //SE GENERA LA SIGUIENTE VENTANA");
             }   
             else{JOptionPane.showMessageDialog(null,"uuuy no, el usuario o contraseña estan mal, introduza usuario y contraseña validos");}
+*/
+            
+            Ventanita_Admin Menu = new Ventanita_Admin(); 
+            Menu.setVisible(true); 
     }
 }
 }
