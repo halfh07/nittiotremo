@@ -51,7 +51,11 @@ public class Ventanita_Admin extends JFrame implements ActionListener
     @Override
     public void actionPerformed(ActionEvent click) 
     {
-   
+   if(click.getSource()==articulos)
+   {        
+        Ventanita_Articulos arts = new Ventanita_Articulos();
+        arts.setVisible(true);
+   }
     }
     
 }

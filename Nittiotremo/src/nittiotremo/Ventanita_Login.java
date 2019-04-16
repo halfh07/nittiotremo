@@ -15,7 +15,7 @@ public class Ventanita_Login extends JFrame implements ActionListener
     private JLabel txtpass;
      
     private JTextField cajausuario;
-    private JTextField cajapass;
+    private JPasswordField cajapass;
     
     private JButton entrar;
     private JButton cancelar;
@@ -42,7 +42,7 @@ public class Ventanita_Login extends JFrame implements ActionListener
                     txtpass=new JLabel();
 
                     cajausuario=new JTextField();
-                    cajapass=new JTextField();
+                    cajapass=new JPasswordField();
 
                     entrar =new JButton();
                     
