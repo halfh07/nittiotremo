@@ -39,7 +39,7 @@ public class Ventanita_Admin extends JFrame implements ActionListener
                         usuarios.setBounds(55,95,225,50);
                         usuarios.addActionListener(this);
                         
-                        articulos.setText("Administrar Usiarios");
+                        articulos.setText("Administrar Articulos");
                         articulos.setBounds(55,160,225,50);
                         articulos.addActionListener(this);
                                
@@ -56,6 +56,11 @@ public class Ventanita_Admin extends JFrame implements ActionListener
         Ventanita_Articulos arts = new Ventanita_Articulos();
         arts.setVisible(true);
    }
-    }
+   if(click.getSource()==usuarios)
+   {
+        Ventanita_Usuarios usrs = new Ventanita_Usuarios(); 
+            usrs.setVisible(true); 
+   }
+   }
     
 }
